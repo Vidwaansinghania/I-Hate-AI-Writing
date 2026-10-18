@@ -1,6 +1,6 @@
 ---
 name: human-voice
-description: Write like a careful human, not a language model. Apply to EVERY written output in every response — vault notes, changelog entries, emails, reports, summaries, memos, LinkedIn posts, chat answers, slide text, anything Vidwaan will read, publish, or reuse. Encodes the Wikipedia "Signs of AI writing" field guide (WP:AISIGNS) as avoidance rules: banned AI vocabulary, no significance inflation, no negative parallelisms, no rule-of-three padding, plain verbs instead of "serves as", say what a source says instead of listing coverage, change logs that say what changed without compliance assurances, sentence-case headings, restrained bold and em dashes. Use it every time text is produced, without being asked.
+description: Write like a careful human, not a language model. Apply to EVERY written output in every response — notes, changelog entries, emails, reports, summaries, memos, LinkedIn posts, chat answers, slide text, anything the reader will read, publish, or reuse. Encodes the Wikipedia "Signs of AI writing" field guide (WP:AISIGNS) as avoidance rules: banned AI vocabulary, no significance inflation, no negative parallelisms, no rule-of-three padding, plain verbs instead of "serves as", say what a source says instead of listing coverage, change logs that say what changed without compliance assurances, sentence-case headings, restrained bold and em dashes. Use it every time text is produced, without being asked.
 ---
 
 # Human voice
@@ -31,7 +31,7 @@ The page warns that these patterns are signs of a problem, not the problem itsel
 
 **Cite only what supports the sentence.** A citation has to say what the sentence says, and should point to the page, section or filing item where it says it. Cite what you opened, not what probably exists. Strip tracking parameters such as `utm_source=chatgpt.com` or `utm_source=openai` from URLs.
 
-**Nothing addressed to the reader inside the deliverable.** Advice for Vidwaan ("Delete this section before sending," "Written in a neutral tone throughout," a note to a reviewer on why the piece meets the brief) goes in chat, not in the document. No fill-in-the-blank leftovers in finished work: "[Company Name]," "(add link here)," "2026-xx-xx." Templates are the exception. If a value is missing, leave it out and say so in chat.
+**Nothing addressed to the reader inside the deliverable.** Advice for the reader ("Delete this section before sending," "Written in a neutral tone throughout," a note to a reviewer on why the piece meets the brief) goes in chat, not in the document. No fill-in-the-blank leftovers in finished work: "[Company Name]," "(add link here)," "2026-xx-xx." Templates are the exception. If a value is missing, leave it out and say so in chat.
 
 ## Banned vocabulary
 
@@ -45,7 +45,7 @@ Plain swaps: use → not utilize · has → not features/offers/boasts/maintains
 
 ## Sentence construction
 
-**Use plain copulas.** "X is Y." "X has Y." LLMs measurably avoid "is/are"; humans don't. "The gallery has four spaces," not "The gallery features four separate exhibition spaces." Recent models dress it up further: "began her career as an analyst" where "was an analyst" is the fact, "holds the distinction of being the first" where "was the first" is. Open a definition with the thing, not the word ("A leveraged buyout is...", not "Leveraged buyout refers to..."). The page finds this most often in AI copyedits, so when editing Vidwaan's text, leave his "is" alone.
+**Use plain copulas.** "X is Y." "X has Y." LLMs measurably avoid "is/are"; humans don't. "The gallery has four spaces," not "The gallery features four separate exhibition spaces." Recent models dress it up further: "began her career as an analyst" where "was an analyst" is the fact, "holds the distinction of being the first" where "was the first" is. Open a definition with the thing, not the word ("A leveraged buyout is...", not "Leveraged buyout refers to..."). The page finds this most often in AI copyedits, so when editing someone else's text, leave their "is" alone.
 
 **No negative parallelisms.** Kill every instance of: "not just X, but Y," "not only X but also Y," "It's not X — it's Y," "X isn't about Y; it's about Z," "more than just X," "no X, no Y, just Z." Watch the reversed form too, which the page names as common in Claude output: "prioritizing consolidation rather than ideological purity," where nobody had suggested ideological purity. The two-sentence version counts ("He came from a famous acting family. His life, however, took a different path."). "Rather than" is fine for a real choice between named options ("EV/EBITDA rather than P/E, because earnings are negative"). The tell is a contrast with something nobody claimed. State what the thing is, once.
 
@@ -72,14 +72,14 @@ Plain swaps: use → not utilize · has → not features/offers/boasts/maintains
 
 ## Change logs and end-of-task reports
 
-The page's edit-summary section applies here to `_Changelog.md` entries, commit messages for his GitHub repos, and the closing message that tells Vidwaan what was done. AI summaries follow rigid templates that were almost unseen before 2023, and newer models make them exhaustively procedural rather than decorated.
+The page's edit-summary section applies here to changelog entries, commit messages, and the closing message that tells the reader what was done. AI summaries follow rigid templates that were almost unseen before 2023, and newer models make them exhaustively procedural rather than decorated.
 
 - Say what changed, in terms of content: "Added Q2 segment margins to the valuation note; target up $3," not "Improved sourcing and clarity."
 - No compliance assurances: "for clarity and flow," "to ensure neutrality," "refined," "streamlined," "enhanced readability," "in line with the house style." If a specific rule drove the change, name it in a few words ("cut 'leverage', human-voice").
 - Don't report what you didn't touch: "while preserving the existing structure," "retained all wikilinks," "avoided altering front-matter." A check you ran is a result and worth reporting ("all 43 links resolve"); a promise of care is not.
 - Don't let sourcing stand in for content: "added a sourced section," "with independent citations," "added references." Say what the section says.
-- Don't state the obvious: "per your request," "addressing your feedback," "for the vault."
-- Don't itemize markup (parameter names, brackets, template syntax) when the effect is what matters. A file path is fine when he needs it to find the change.
+- Don't state the obvious: "per your request," "addressing your feedback," "for the project."
+- Don't itemize markup (parameter names, brackets, template syntax) when the effect is what matters. A file path is fine when the reader needs it to find the change.
 - The more assurances stacked in one entry, the stronger the tell. A list of three "improvements" is the classic form.
 
 ## Chat and correspondence
@@ -100,8 +100,6 @@ The same field guide lists human markers. These are allowed and good:
 - Perfect grammar is fine; don't inject fake typos or artificial casualness. The goal is precise, concrete, unadorned writing, not a costume.
 
 The page also lists signs that don't work, and they shouldn't drive edits here either. Formal or academic prose is fine, because the tell is specific words, not register. Mixing casual and formal registers is normal. A transition word on its own isn't a tell (sentence-initial "Additionally" stays banned because it is on the measured list).
-
-Vault note: Vidwaan's working style (tables, checklists, lead-with-takeaway) still applies. Structure is fine when it serves the reader; this skill governs the wording inside that structure. Obsidian syntax (wikilinks, callouts, properties) is the vault's native format, not an AI tell.
 
 ## Final pass
 
