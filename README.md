@@ -47,3 +47,7 @@ The skill's `description` field tells the assistant when to load it. The file is
 ## Roadmap
 
 - Re-check the rules against Wikipedia's guide when its revision changes.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
